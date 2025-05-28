@@ -32,7 +32,7 @@ public:
         }
     }
 
-    // Agrega una citación del artículo origen al destino
+    // Agrega una citación del artículo origenX al destino
     void agregarCitacion(const IdArticulo& origen, const IdArticulo& destino) {
         agregarArticulo(origen);
         agregarArticulo(destino);
